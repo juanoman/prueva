@@ -9,6 +9,7 @@ public class Main {
 		byte opc=0;
 	while(opc!=5){
 		basedatos miBase=new basedatos("alumnosnotas");
+		System.out.println("cambio guapitoooooo");
 		System.out.println("elige una obcion:\n1-Nuevo alumno\n2-Baja alumno\n3-Modificar nota alumno\n4-Listado de aprobados\n5-Salir");
 		opc=scan.nextByte();
 		switch(opc){
